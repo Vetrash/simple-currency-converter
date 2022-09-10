@@ -51,7 +51,6 @@ select{
   box-sizing: border-box;
   width: 50%; 
   padding-right: 10px; 
-  text-align: end;
   white-space: nowrap; 
   overflow: hidden; 
   text-overflow: ellipsis; 
@@ -83,6 +82,7 @@ button{
   border: none;
   background: none;
 }
+
 
 @media (max-width: 500px) {
   .title{

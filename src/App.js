@@ -116,8 +116,11 @@ const App = () => {
   };
 
   useEffect(() => {
-    startCurrence();
-    updateData();
+    const start = async () => {
+      startCurrence();
+      updateData();
+    };
+    start();
   }, []);
 
   const convert = () => {
@@ -201,7 +204,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="flex-Conteiner">
-        <div className="title">Simple currency converter v1.0</div>
+        <div className="title">Simple currency converter</div>
         <div className="ConvertItem given">
           <div className="title">У меня есть</div>
           <input className="Currence" type="text" data-currence="FirstCurrence" onChange={changeInput} value={Currence.FirstCurrence.value} />

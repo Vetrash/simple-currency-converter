@@ -9,8 +9,7 @@
 Конвертация валют происходит "на лету" при каждом изменении валюты или суммы.
 Приложение работает с 34 мировыми валютами от русских рублей до японский иен.
 
-Развернутый проект на Vercel доступен по следующим ссылкам:
+Развернутый проект на Vercel доступен по следующим ссылкам:<br>
 https://simple-currency-converter-vetrash.vercel.app/<br>
-https://simple-currency-converter-23m0r46n9-vetrash.vercel.app/<br>
 https://simple-currency-converter-git-master-vetrash.vercel.app/<br>
 

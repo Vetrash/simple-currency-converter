@@ -68,6 +68,7 @@ select{
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .remove{
   cursor: pointer;
   padding: 10px;
@@ -82,3 +83,27 @@ button{
   border: none;
   background: none;
 }
+
+@media (max-width: 500px) {
+  .title{
+    top: -20px;
+    font-size: 14px;
+  }
+  .remove{
+    padding-bottom: 20px;
+  }
+  select{
+    font-size: 10px;
+  }
+  .Currence{
+    font-size: 10px;
+  }
+  .info{
+    font-size: 11px;
+  }
+
+ }
+ .main-title{
+  top: -10px;
+  font-size: 18px;
+ }
